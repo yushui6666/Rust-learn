@@ -43,12 +43,30 @@ struct Rec {
 }
 
 impl Rec {
-    fn area(&self) -> u32 {
+    fn area(&self) -> u32 
+    {
         self.w * self.l
+    }
+    fn daxiao(&self,other:&Rec) ->bool
+
+    {
+        self.area()>other.area()
+    }
+    fn zheng(size:u32) ->Rec
+    {
+        Rec
+        {
+            w:size,
+            l:size,
+        }
     }
 }
 
 fn main() {
     let r = Rec { w: 30, l: 40 };
+    let r2 = Rec { w: 20, l: 30 };
+    let r3 = Rec::zheng(20);
+    println!("r是否大于r2 = {}", r.daxiao(&r2));
+    println!("r3的面积 = {}", r3.area());
     println!("面积 = {}", r.area());
 }
