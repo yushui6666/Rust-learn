@@ -1,7 +1,8 @@
 // 定义模块
 mod greetings {
     pub fn hello() {
-        println!("Hello from module!");
+        println!("Hello from module!");//pub解除了模块的封装性
+
     }
 }
 
