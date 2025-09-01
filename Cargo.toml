@@ -1,0 +1,17 @@
+[workspace]
+members = [
+    "bianliang/bianliang1",
+    "data/data1",
+    "error/error1", "fanxing",
+    "hanshu/hanshu1",
+    "hashmap/hashmap1",
+    "lckz/lckz1",
+    "meiju/meiju1",
+    "qiepian/qiepian1",
+    "shiyan/shiyan1",
+    "string/string1",
+    "struct/struct1",
+    "suoyou/suoyou1",
+    "vec/vec1",
+    "fanxing"
+]
