@@ -1,0 +1,15 @@
+{
+    // Background Cover 插件配置
+    "background.cover": "C:/Users/34239/Pictures/vscodebackground.jpg",
+    "background.style": {
+        "opacity": 0.5,         // 背景透明度，0~1，越小越淡
+        "position": "center",     // 背景位置，可选 top/center/bottom
+        "size": "cover",          // cover：铺满整个编辑器，contain：保持比例
+        "repeat": "no-repeat",    // 不重复
+        "z-index": -1             // 保证背景在最底层
+    },
+    "background.enabled": true,     
+    "background.useDefault": false ,
+    "background.debug": true
+
+}

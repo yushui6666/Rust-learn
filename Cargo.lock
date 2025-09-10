@@ -3,6 +3,14 @@
 version = 4
 
 [[package]]
+name = "Test"
+version = "0.1.0"
+
+[[package]]
+name = "Trait"
+version = "0.1.0"
+
+[[package]]
 name = "bianliang1"
 version = "0.1.0"
 
@@ -28,6 +36,10 @@ version = "0.1.0"
 
 [[package]]
 name = "lckz1"
+version = "0.1.0"
+
+[[package]]
+name = "life_time"
 version = "0.1.0"
 
 [[package]]

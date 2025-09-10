@@ -14,4 +14,4 @@ members = [
     "suoyou/suoyou1",
     "vec/vec1",
     "fanxing"
-]
+, "Trait", "life_time", "Test"]
