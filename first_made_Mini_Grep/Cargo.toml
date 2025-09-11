@@ -1,0 +1,6 @@
+[package]
+name = "first_made_Mini_Grep"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
